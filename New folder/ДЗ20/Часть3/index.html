@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="main.css">
+  <title>Registration on the site</title>
+</head>
+<body>
+
+  <div class="wrapper">
+
+    <div class="reg__data">
+
+      <div class="input-item">
+        <div class="icon user"></div>
+        <input type="text" class="long" id="user-name" placeholder="Username">
+      </div>
+
+      <div class="input-item">
+        <div class="icon email"></div>
+        <input type="email" class="long" id="email" placeholder="Email address">
+      </div>
+
+      <div class="input-item">
+        <div class="icon password"></div>
+        <input type="password" id="password" placeholder="Password">
+        <input type="password" id="password" placeholder="Confirm password">
+      </div>
+    </div>
+
+    <div class="user__data">
+      <input type="text" placeholder="First name">
+      <input type="text" placeholder="last name">
+      <input type="text" placeholder="Male" list="male">
+      <datalist id="male">
+        <option value="Male">
+        <option value="Female">
+      </datalist>
+
+      <input type="text" placeholder="mm/dd/yyyy">
+
+    </div>
+
+    <div class="check__items">
+      
+        <input required name="rules" id="forum_rules" type="checkbox">
+        <label for="forum_rules">Я принимаю правила форума</label>
+        <br>
+        <input name="rules" id="email_rules" type="checkbox">
+        <label for="email_rules">Подписаться на рассылку</label>
+
+    </div>
+
+  </div>
+  
+</body>
+</html>

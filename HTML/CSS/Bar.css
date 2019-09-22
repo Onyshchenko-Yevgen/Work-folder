@@ -1,0 +1,28 @@
+@keyframes motion{
+    from{
+     margin-left: 0px;   
+    } 
+    to{
+     margin-left: 250px; 
+    }
+}
+
+
+
+
+div{
+    width: 300px;
+    height: 50px;
+    border: 2px solid orange;
+    background-color: white;
+    animation: Bar 10s infinite;
+}
+.squar{
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    border: 1px solid orange;
+    
+    animation: motion 5s infinite;
+/*    animation-duration: 5s;*/
+}

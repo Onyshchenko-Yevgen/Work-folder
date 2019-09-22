@@ -1,0 +1,21 @@
+body{
+  background-color: gainsboro;
+  font-family: sans-serif; 
+}
+h3{
+    text-align: center;
+    
+}
+h5{
+   text-align: center; 
+}
+.block{
+    width: 120px;
+    height: 150px;
+    text-align: center;
+    border: 2px solid gray;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+}

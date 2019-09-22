@@ -1,0 +1,27 @@
+body{
+    background-color: lightgray;
+    
+}
+
+ol{
+   background-color: pink;
+    width: 500px;
+    
+    
+}
+li{
+    background-color: lightpink;
+    padding: 10px;
+    
+}
+span{
+    background-color: purple;
+    
+    
+}
+div{
+    width: auto;
+    margin: auto;
+    border: 1px;
+    background-color: palevioletred;
+}

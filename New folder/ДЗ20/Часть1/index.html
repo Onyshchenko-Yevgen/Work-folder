@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="main.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <div class="wrap">  
+
+    <div class="card"> 
+
+      <div class="title">Credit card details</div>
+
+      <div class="form">
+
+        <form action="">
+
+          <label for="card-number">Card Number</label>
+          <input type="number" placeholder="0000 0000 0000 0000" id="card-number" autofocus>
+          <label for="name-card">Name On Card</label>          
+          <input type="text" placeholder="Name Surname" id="name-card" maxlength="25">
+          
+          <div class="input__group">
+
+            <label for="date">Expiry Date</label> 
+            <label for="cvv">CVV / CVN</label>           
+            <input type="number" id="date" maxlength="2" min="1" max="31" step="1" placeholder="00">
+            <input type="number" maxlength="4" min="2019" max="9999" step="1" placeholder="0000">            
+            <input type="password" id="cvv" maxlength="3" placeholder="***">
+
+          </div>          
+
+        </form>
+
+      </div>
+
+      <div class="img"></div>
+
+    </div>
+
+    
+
+  </div>
+  
+</body>
+</html>

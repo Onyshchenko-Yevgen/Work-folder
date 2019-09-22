@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: cadetblue;
+    font-family: sans-serif; 
+}
+
+.one{
+    width: 400px;
+    height: 100px;
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+   
+}
+.two{
+    width: 400px;
+    height: 100px;
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+.three{
+    width: 400px;
+    height: 60px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    
+}
+h6{
+    text-align: center;
+    color: white
+}
+li{
+    list-style-type: none;
+}
+.icon{
+    display: inline-block;
+}
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+.fb:hover,
+.insta:hover,
+.youtube:hover{
+    filter: none;
+}
+
+.fb,.insta,.youtube{
+    filter: grayscale(100);
+}

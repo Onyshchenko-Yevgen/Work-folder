@@ -1,0 +1,8 @@
+#validInput{
+    color: #47AF4F;
+    border-color: #47AF4F;
+    background-image: url(../img/valid.png);
+    background-repeat: no-repeat;
+    background-position: 200px;
+    background-size: 20px;
+}

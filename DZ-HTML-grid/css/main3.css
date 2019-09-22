@@ -1,0 +1,46 @@
+.conteiner {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 50px 100vh;
+  border: 1px solid #000000;
+  grid-template-areas:
+    "leftContent header header rightContent"
+    "leftContent leftCenterContent rightCenterContent rightContent";
+}
+
+header {
+  grid-area: header;
+  background-color: #e7b6cb;
+}
+
+.leftContent {
+  grid-area: leftContent;
+  background-color: #bbdbe0;
+}
+
+.leftCenterContent {
+  grid-area: leftCenterContent;
+  background-color: #e0d4ad;
+}
+
+.rightCenterContent {
+  grid-area: rightCenterContent;
+  background-color: #cfb498;
+}
+
+.rightContent {
+  grid-area: rightContent;
+  background-color: #b2c6d8;
+}
+
+.leftContent,
+.rightContent,
+.rightCenterContent,
+.leftCenterContent,
+header {
+  border: 1px solid #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

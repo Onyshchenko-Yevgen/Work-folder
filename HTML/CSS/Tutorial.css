@@ -1,0 +1,26 @@
+code{
+    white-space: pre;
+    
+}
+body{
+    background-color: gainsboro;
+}
+
+div{
+    background-color: lightgray;
+}
+h2{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.one{
+    color:red
+}
+.two{
+    border-bottom: 2px dotted;
+}
+.three{
+    background-color: lightgray;
+}

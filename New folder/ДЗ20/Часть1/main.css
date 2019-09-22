@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrap{
+  position: relative;
+  width: 400px;
+  height: 250px;
+  background-color: rgb(96, 76, 211);
+  border-radius: 10px;
+  margin: 50px auto; 
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+.title{     
+  width: 280px;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 50px;
+  text-transform: uppercase;
+  background-color: rgb(247, 105, 10);
+  color: #fff;
+
+  position: absolute;
+  top: 20px;
+  left: -20px;
+  
+}
+
+.img{
+  display: block;
+  background-image: url(img/moon_flag.png);
+  width: 100%;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: 260px 90px; 
+  border-radius: 10px; 
+ 
+}
+
+.form{
+  position: absolute;
+  width: 280px;
+  height: 170px;
+  padding-left: 30px;
+  top: 80px;
+  
+}
+label,input{
+  display: block;
+  width: 190px;
+  height: 25px;  
+  line-height: 25px;
+}
+
+label{
+  color: rgb(185, 201, 247);
+}
+
+input{
+  background-color: rgb(175, 203, 255);
+  border: 0;
+  border-bottom: 2px solid rgb(3, 38, 133);
+}
+
+.input__group input{
+  margin-right: 8px;
+  width: 55px;
+  text-align: left;
+  display: inline-block;
+}
+
+.input__group label{
+ 
+  /* margin-right: 10px; */
+  font-size: 10px;
+  width: 110px;
+  display: inline-block;
+}
+
+.input__group label:first-child{
+  margin-right: 20px;
+}

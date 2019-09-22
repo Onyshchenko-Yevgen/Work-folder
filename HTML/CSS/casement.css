@@ -1,0 +1,53 @@
+#Container {
+    width: 90vw;
+    height: 90vh;
+    min-width: 700px;
+    min-height: 700px;
+    max-width: 1000px;
+    max-height: 1000px;
+    margin: 10px auto;
+}
+
+.Case {
+    width: 250px;
+    height: 150px;
+    background: #872D62;
+    border: 3px solid #651142;
+    position: absolute;
+    top: calc(50% - 75px);
+}
+
+.left {
+    left: 50%;
+}
+
+.right {
+    right: 50%;
+}
+
+.text {
+    text-align: center;
+    width: 100px;
+    position: absolute;
+    left: calc(50% - 50px);
+    top: 50%;
+    font-family: Arial, sans-serif;
+    font-weight: 800;
+    font-size: larger;
+}
+
+.section:hover .left {
+    -webkit-transform: translateX(80px) perspective(350px) rotateY(-30deg);
+    -ms-transform: translateX(80px) perspective(350px) rotateY(-30deg);
+    -moz-transform: translateX(80px) perspective(350px) rotateY(-30deg);
+    transform: translateX(80px) perspective(350px) rotateY(-30deg);
+    transition: 2s linear;
+}
+
+.section:hover .right {
+    -webkit-transform: translateX(-80px) perspective(350px) rotateY(30deg);
+    -ms-transform: translateX(-80px) perspective(350px) rotateY(30deg);
+    -moz-transform: translateX(-80px) perspective(350px) rotateY(30deg);
+    transform: translateX(-80px) perspective(350px) rotateY(30deg);
+    transition: 2s linear;
+}

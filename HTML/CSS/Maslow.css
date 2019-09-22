@@ -1,0 +1,46 @@
+
+.one{
+    height: 10px;
+    width: 150px;
+    border: 1px solid black;
+    padding: 5px 3px 10px;
+    background-color: blue;
+    margin: 0 auto;
+    font-family: color: white:
+    
+}
+
+.two{
+    height: 20px;
+    width: 250porx;
+    border: 1px solid black;
+    padding: 5px 3px 10px;
+    background-color: orangered;
+    margin: 0 auto;
+}
+
+.free{
+    height: 30px;
+    width: 300px;
+    border: 1px solid black;
+    padding: 5px 3px 10px;
+    background-color: purple;
+    margin: 0 auto;
+}
+
+.fore{
+    height: 40px;
+    width: 350px;
+    border: 1px solid black;
+    padding: 5px 3px 10px;
+    background-color: hotpink;
+    margin: 0 auto;
+}
+.five{
+    height: 50px;
+    width: 400px;
+    border: 1px solid black;
+    padding: 5px 3px 10px;
+    background-color: forestgreen;
+    margin: 0 auto;
+}

@@ -1,0 +1,58 @@
+@import url('../../style/reset.css');
+@import url('../../style/main.css');
+
+.content{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 200px 200px 300vh 100px;
+    border: 1px solid #000000;
+    grid-template-areas: 
+    "header header header"
+    "menuLeft mainContent menuRight"
+    "leftContent mainContent rightContent"
+    "leftContent footer rightContent";
+}
+
+footer{
+    grid-area: footer;
+    background-color: #D9D2E9;
+}
+
+header{
+    grid-area: header;
+    background-color: #EAD1DC;
+}
+
+.menuLeft{
+    grid-area: menuLeft;
+    background-color: #D0E0E3;
+}
+
+.mainContent{
+    grid-area: mainContent;
+    background-color: #FFF2CC;
+}
+
+.menuRight{
+    grid-area: menuRight;
+    background-color: #C9DAF8;
+}
+
+.leftContent{
+    grid-area: leftContent;
+    background-color: #FCE5CD;
+}
+
+.rightContent{
+    grid-area: rightContent;
+    background-color: #FCE5CD;
+}
+
+header, footer, .content div{
+    border: 1px solid #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+

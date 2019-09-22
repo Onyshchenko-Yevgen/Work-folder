@@ -1,0 +1,22 @@
+body{
+  background-color: gainsboro;
+  font-family: sans-serif; 
+}
+h1{
+    text-align: left;
+    color: darkblue;
+}
+
+h3{
+    text-align: left;
+    color: darkblue;
+}
+
+.p{
+    font-size: 18px;
+    text-align: left;
+}
+body{
+    background-color: gainsboro;
+}
+

@@ -1,0 +1,397 @@
+.table{
+    width: 800px;
+    font-size: 0;
+}
+
+.dot{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    
+}
+
+.white_d{
+    background-color: wheat;
+}
+.black_d{
+    background-color: darkred;
+}
+
+/* Черная пешка */
+.war_b{
+    width: 0;
+    height: 0;
+    border-bottom: 70px solid black;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    margin: 10px auto;
+}
+
+.war_b::before{
+    content: "";
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: -12.5px;
+}
+
+.war_b::after{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 10px;
+    background-color: black;
+    margin-left: -15px;
+    margin-top: -5px;
+}
+/* Белый король */
+.king_w{
+    width: 50px;
+    height: 20px;
+    background-color: white;
+    margin: 10px auto;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.king_w::before{
+    content: "";
+    display: block;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 7.5px;
+}
+
+.king_w::after{
+    content: "";
+    display: block;
+    border-bottom: 40px solid white;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    margin-top: -5px;
+}
+/* Черный король */
+.king_b{
+    width: 50px;
+    height: 20px;
+    background-color: black;
+    margin: 10px auto;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.king_b::before{
+    content: "";
+    display: block;
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 7.5px;
+}
+
+.king_b::after{
+    content: "";
+    display: block;
+    border-bottom: 40px solid black;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    margin-top: -5px;
+}
+/* Чёрная тура */
+.tura_b{
+    width: 0;
+    height: 0;
+    border-bottom: 60px solid black;
+    border-right: 25px solid transparent;
+    border-left: 25px solid transparent;
+    margin: 10px auto;
+    
+}
+
+.tura_b::before{
+     content: "";
+    display: block;
+    width: 55px;
+    height: 25px;
+    background-color: black;
+    margin-left: -27.5px;
+    border-radius: 10%;
+    
+}
+
+.tura_b::after{
+    content: "";
+    display: block;
+    width: 65px;
+    height: 25px;
+    background-color: black;
+    margin-left: -32.5px;
+    margin-top: 35px;
+    border-radius: 10%;
+    
+}
+/* Чёрный слон */
+.slon_b{
+    width: 0;
+    height: 0;
+    border-bottom: 60px solid black;
+    border-right: 25px solid transparent;
+    border-left: 25px solid transparent;
+    margin: 10px auto;
+    
+}
+
+.slon_b::before{
+     content: "";
+    display: block;
+    width: 35px;
+    height: 55px;
+    background-color: black;
+    margin-left: -17.5px;
+    border-radius: 50%;
+    
+}
+
+.slon_b::after{
+    content: "";
+    display: block;
+    width: 65px;
+    height: 25px;
+    background-color: black;
+    margin-left: -32.5px;
+    margin-top: 5px;
+    border-radius: 10%;
+    
+}
+/* Чёрный ферзь */
+.ferz_b{
+    width: 0;
+    height:0;
+    border-bottom: 80px solid black;
+    border-right: 35px solid transparent;
+    border-left: 35px solid transparent;
+    margin: 10px auto;
+    
+}
+
+.ferz_b::before{
+     content: "";
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    margin-left: -12.5px;
+    border-radius: 50%;
+    
+}
+
+.ferz_b::after{
+    content: "";
+    display: block;
+    width: 85px;
+    height: 10px;
+    background-color: black;
+    margin-left: -42.5px;
+    margin-top: 25px;
+    border-radius: 40%;
+    
+}
+/* Чёрный конь */
+.kon_b{
+    width: 0;
+    height: 0;
+    border-bottom: 60px solid black;
+    border-right: 25px solid transparent;
+    border-left: 25px solid transparent;
+    margin: 10px auto;
+    
+}
+
+.kon_b::before{
+     content: "";
+    display: block;
+    width: 55px;
+    height: 25px;
+    background-color: black;
+    margin-left: -47.5px;
+    border-radius: 50%;
+    
+}
+
+.kon_b::after{
+    content: "";
+    display: block;
+    width: 65px;
+    height: 25px;
+    background-color: black;
+    margin-left: -32.5px;
+    margin-top: 34px;
+    border-radius: 10%;
+    
+}
+/* Белая пешка */
+.war_w{
+    width: 0;
+    height: 0;
+    border-bottom: 70px solid white;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    margin: 10px auto;
+}
+
+.war_w::before{
+    content: "";
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: -12.5px;
+}
+
+.war_w::after{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 10px;
+    background-color: white;
+    margin-left: -15px;
+    margin-top: -5px;
+}
+/* Белая тура */
+.tura_w{
+    width: 0;
+    height: 0;
+    border-bottom: 60px solid white;
+    border-right: 25px solid transparent;
+    border-left: 25px solid transparent;
+    margin: 10px auto;
+    
+}
+
+.tura_w::before{
+     content: "";
+    display: block;
+    width: 55px;
+    height: 25px;
+    background-color: white;
+    margin-left: -27.5px;
+    border-radius: 10%;
+    
+}
+
+.tura_w::after{
+    content: "";
+    display: block;
+    width: 65px;
+    height: 25px;
+    background-color: white;
+    margin-left: -32.5px;
+    margin-top: 35px;
+    border-radius: 10%;
+    
+}
+/* Белый слон */
+.slon_w{
+    width: 0;
+    height: 0;
+    border-bottom: 60px solid white;
+    border-right: 25px solid transparent;
+    border-left: 25px solid transparent;
+    margin: 10px auto;
+    
+}
+
+.slon_w::before{
+     content: "";
+    display: block;
+    width: 35px;
+    height: 55px;
+    background-color: white;
+    margin-left: -17.5px;
+    border-radius: 50%;
+    
+}
+
+.slon_w::after{
+    content: "";
+    display: block;
+    width: 65px;
+    height: 25px;
+    background-color: white;
+    margin-left: -32.5px;
+    margin-top: 5px;
+    border-radius: 10%;
+    
+}
+/* Белый ферзь */
+.ferz_w{
+    width: 0;
+    height:0;
+    border-bottom: 80px solid white;
+    border-right: 35px solid transparent;
+    border-left: 35px solid transparent;
+    margin: 10px auto;
+    
+}
+
+.ferz_w::before{
+     content: "";
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    margin-left: -12.5px;
+    border-radius: 50%;
+    
+}
+
+.ferz_w::after{
+    content: "";
+    display: block;
+    width: 85px;
+    height: 10px;
+    background-color: white;
+    margin-left: -42.5px;
+    margin-top: 25px;
+    border-radius: 40%;
+    
+}
+/* Белый конь */
+.kon_w{
+    width: 0;
+    height: 0;
+    border-bottom: 60px solid white;
+    border-right: 25px solid transparent;
+    border-left: 25px solid transparent;
+    margin: 10px auto;
+    
+}
+
+.kon_w::before{
+     content: "";
+    display: block;
+    width: 55px;
+    height: 25px;
+    background-color: white;
+    margin-left: -47.5px;
+    border-radius: 50%;
+    
+}
+
+.kon_w::after{
+    content: "";
+    display: block;
+    width: 65px;
+    height: 25px;
+    background-color: white;
+    margin-left: -32.5px;
+    margin-top: 34px;
+    border-radius: 10%;
+    
+}

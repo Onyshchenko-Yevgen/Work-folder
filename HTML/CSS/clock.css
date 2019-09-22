@@ -1,0 +1,52 @@
+#clockFase {
+    width: 45vw;
+    height: 45vw;
+    border-radius: 50%;
+    border: 0.5vw solid #008B8B;
+    margin: 2rem auto;
+    position: relative;
+}
+
+#hourHand,
+#minuteHand {
+    position: absolute;
+    background: #008B8B;
+    transform-origin: bottom center;
+}
+
+#center {
+    display: block;
+    width: 4%;
+    height: 4%;
+    border-radius: 50%;
+    background: #008B8B;
+    position: absolute;
+    top: calc(50% - (4% / 2));
+    left: calc(50% - (4% / 2));
+}
+
+#hourHand {
+    width: 1.5%;
+    height: 35%;
+    left: calc(50% - (2% / 2));
+    top: calc(50% - 35%);
+    animation: hand-rotate 432s linear infinite;
+}
+
+#minuteHand {
+    width: 1.5%;
+    height: 45%;
+    left: calc(50% - (1% / 2));
+    top: calc(50% - 45%);
+    animation: hand-rotate 36s linear infinite;
+}
+
+@keyframes hand-rotate {
+    from {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(360deg)
+    }
+}

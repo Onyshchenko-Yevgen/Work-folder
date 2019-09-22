@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    padding: 10px;
+    background-color: #ADD8E6;
+}
+
+h5 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.item {
+    background-color: #fff;
+    margin-top: 20px;
+
+}
+
+.item img {
+    width: 100%;
+}
+
+.text {
+    padding: 15px;
+}

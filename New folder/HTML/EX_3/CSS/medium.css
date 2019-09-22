@@ -1,0 +1,49 @@
+@media screen and (min-width: 600px) {
+    form {
+        height: 90vh;
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr 2fr 1fr 1fr;
+        grid-template-areas:
+            "regFormFS"
+            "persDetFS"
+            "chBoxFS"
+            "submitFS";
+        font-family: Arial, Helvetica, sans-serif;
+        grid-column-gap: 20px;
+    }
+
+    .regFormFS {
+        padding: 0 40px 0 40px;
+    }
+
+    .persDetFS {
+        padding: 0 40px 0 40px;
+    }
+
+    #userName,
+    #userMail {
+        width: calc(100% - 50px);
+    }
+
+    #userFName,
+    #userLName,
+    #userGender,
+    #userDoB {
+        width: calc(50% - 10px);
+    }
+
+    #userPasswd,
+    #userPasswdConf {
+        width: calc(50% - 27px);
+    }
+
+    .hiddn {
+        display: none;
+    }
+
+    #userPasswdConf,
+    #userLName,
+    #userDoB {
+        margin-left: 10px;
+    }
+}

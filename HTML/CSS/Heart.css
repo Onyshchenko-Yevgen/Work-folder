@@ -1,0 +1,21 @@
+@keyframes motion{
+    from{
+     width: 80Px;
+     height: 80px;
+    } 
+    to{
+     width: 320Px;
+     height: 320px;
+     
+    }
+}
+
+img{
+    filter: grayscale(100);
+}
+
+img:hover{
+    animation: motion 5s linear;
+    animation-play-state: running;
+    filter: none;
+}

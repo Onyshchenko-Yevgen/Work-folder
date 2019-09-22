@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: gainsboro;
+    font-family: sans-serif; 
+}
+
+header{
+    background-color: violet;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+}
+menu{
+   background-color: mediumvioletred;
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    text-align: left;
+    margin: 10px;
+    padding: 10px;  
+    color: white;
+}
+main{
+    background-color: mediumvioletred;
+    width: 60%;
+    height: 450px;
+    line-height: 25px;
+    text-align: left;
+    margin: 10px;
+    padding: left 210px right 10px; 
+    color: white;
+    display: inline-block;
+}
+h4{
+   width: 90%; 
+   height: 170px; 
+   margin: 10px;        
+   background-color: palevioletred;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+.one{
+    background-color: mediumvioletred;
+    width: 200px;
+    height: 150px;
+    line-height: 25px;
+    text-align: left;
+    margin: 10px;
+    padding: 10px; 
+    color: white; 
+}
+.two{
+    background-color: mediumvioletred;
+    width: 200px;
+    height: 150px;
+    line-height: 25px;
+    text-align: left;
+    margin: 10px;
+    padding: 10px; 
+    color: white; 
+}
+.block{
+    display: inline-block;
+}
+
+.three{
+    background-color: mediumvioletred;
+    width: 200px;
+    height: 350px;
+    line-height: 25px;
+    text-align: left;
+    margin: 10px;
+    padding: 10px; 
+    color: white; 
+    display: inline-block;
+}
+
+footer{
+  background-color: mediumvioletred;
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    text-align: left;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px;  
+    color: white;
+}

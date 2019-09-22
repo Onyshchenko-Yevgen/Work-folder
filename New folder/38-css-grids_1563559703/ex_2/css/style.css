@@ -1,0 +1,44 @@
+@import url('../../style/reset.css');
+@import url('../../style/main.css');
+
+.content {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 10% 800px 1fr;
+    grid-template-rows: 200px 1fr;
+    border: 1px solid #000000;
+    grid-template-areas:
+        "menu mainContent rightMenu"
+        "menu mainContent rightContent";
+}
+
+
+.rightMenu {
+    grid-area: rightMenu;
+    background-color: #CFE2F3;
+}
+
+.mainContent {
+    grid-area: mainContent;
+    background-color: #FFF2CC;
+}
+
+.rightContent {
+    grid-area: rightContent;
+    background-color: #FCE5CD;
+}
+
+.menu {
+    grid-area: menu;
+    background-color: #EAD1DC;
+}
+
+.rightMenu,
+.mainContent,
+.rightContent,
+.menu {
+    border: 1px solid #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

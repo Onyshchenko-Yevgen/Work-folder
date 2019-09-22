@@ -1,0 +1,8 @@
+#invalidInput{
+    color: #E43F60;
+    border-color: #E43F60;
+    background-image: url(../img/invalid.png);
+    background-repeat: no-repeat;
+    background-position: 200px;
+    background-size: 20px;
+}
