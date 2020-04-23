@@ -1,0 +1,96 @@
+/*fonts*/
+@import url('all.css');
+
+.list-group-item:hover,
+.custom-file-input:hover,
+.badge-pill {
+    cursor: pointer;
+}
+
+.mainContent {
+    margin-top: 100px;
+}
+
+/*makes arrows in block "Rewards" of "Home" pages */
+.rewardsItemNameRight,
+.rewardsItemNameLeft,
+.rewardsItemDateLeft,
+.rewardsItemDateRight {
+    display: inline-block;
+    border: .4px solid lightgrey;
+    padding-top: 5px;
+    height: 35px;
+    position: relative;
+    user-select: none;
+}
+
+.rewardsItemNameRight::before,
+.rewardsItemNameRight::after,
+.rewardsItemDateRight::after,
+.rewardsItemDateRight::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: -33.5px;
+    border: 17.5px solid transparent;
+    border-right: 17.5px solid gray;
+}
+
+.rewardsItemNameRight::after,
+.rewardsItemDateRight::after {
+    border-right: 17.5px solid white;
+}
+
+.rewardsItemNameLeft::before,
+.rewardsItemNameLeft::after,
+.rewardsItemDateLeft::before,
+.rewardsItemDateLeft::after {
+    content: '';
+    position: absolute;
+    right: -33.5px;
+    bottom: 0;
+    border: 17.5px solid transparent;
+    border-left: 17.5px solid gray;
+}
+
+.rewardsItemNameLeft::after,
+.rewardsItemDateLeft::after {
+    border-left: 17.5px solid white;
+
+}
+
+/* reward icon in block "Rewards" of "Home" pages */
+.rewardsItemImg {
+    display: inline-block;
+    width: 75px;
+    height: 30px;
+    position: relative;
+}
+
+.rewardsItemImg::after {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 5px;
+    background-image: url('../img/badge.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+/* color circle in "Homework" page */
+.colorCircle {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-bottom: -5px;
+    border: 1px solid lightgrey;
+}
+
+/* grade color in "Homework" page */
+.badge-pill {
+    background-color: green;
+}
